@@ -8,7 +8,7 @@ test-app:
 
 setup-app:
 	npm install
-	git remote add stubulator01 git@heroku.com:mentat-presentation-stub01.git
+	git remote add stubulator01 git@heroku.com:filmster-presentation-stub01.git
 
 setup-heroku:
 	heroku apps:create --remote stubulator01 --app filmster-presentation-stub01
