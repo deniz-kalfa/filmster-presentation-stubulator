@@ -1,0 +1,7 @@
+script: git checkout develop && make test-app-ci
+deploy:
+  provider: heroku
+  api_key:
+    secure: Yr1swAlEKgfA13gTLgi6TtsX2i2hXakBkStJqEaHug/L9xEKP7p+qO/pG267w4o+qHANXXE2luViJHx8lTpTxdMsc/LBxwX2P2y/OYVbevuayf23f3becWx3lx1yXuqAv1z84CbTK7FwR34dKxYJf8H8DecX60lShcxTXruIjY0=
+  app:
+    develop: filmster-presentation-stub01
